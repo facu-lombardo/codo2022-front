@@ -10,42 +10,78 @@
     rel="stylesheet" 
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" 
     crossorigin="anonymous">
+    <link rel="stylesheet" href="/Integrador_Front/css/main.css">
 </head>
 <body>
-    <nav class="navbar sticky-top navbar-expand-lg bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="nav-link active" aria-current="page" href="index.html" style="color: white;">Confg Bs As</a>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto">
-                <a class="nav-link" style="color: white;" href="#">La conferencia</a>
-                <a class="nav-link" style="color: grey ;" href="#">Los oradores</a>
-                <a class="nav-link" style="color: grey;" href="#">El lugar y la fecha</a>
-                <a class="nav-link" style="color: grey" href="#">Convierte en orador</a>
-                <a class="nav-link" style="color: green; " href="#">Comprar tickets</a>
+    <div class="img-fluid" style="background-image: url(/Integrador_Front/imagenes_integrador_front/ba1.jpg); height: 800px; width: auto ;"> 
+      <nav class="navbar navbar-light bg-dark">
+          <div class="container-fluid px-5 mt-0 text-light">
+            <a class="navbar-brand text-light" href="index.html" >
+              <img src="imagenes_integrador_front/codoacodo.png" alt="" width="90" height="50" class="d-inline-block ">
+              <p class="fs-5 d-inline-block" style="margin-top: 0px;">Conf Bs As</p>
+            </a>
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link" style="color:whitesmoke" >La conferencia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: grey;">Los oradores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: grey;">El lugar y la fecha</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: grey;" >Convierte en orador</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: green;">Comprar tickets</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="card bg-dark text-white  ">
+          <div class="card-img-overlay  " >
+            <h1 class="card-title">Conf Bs As</h1>
+            <p class="card-text">Esta es una tarjeta más amplia con texto de apoyo a continuación como introducción natural a contenido adicional. Este contenido es un poco más largo.</p>
+            <p class="card-text">Última actualización hace 3 minutos</p>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-4 mb-4">
+        <p class="mb-0">CONOCE A LOS </p>
+        <h1>ORADORES</h1>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4" id="middle-cards">
+        <div class="col">
+          <div class="card h-100">
+            <img src="/Integrador_Front/imagenes_integrador_front/steve.jpg" class="card-img-top" alt="Imagen de Steve Jobs">
+            <div class="card-body">
+              <span class="btn btn-warning" >Javascript</span><span class="btn btn-info ms-2" style=color:aliceblue  ">React</span>
+              <h5 class="card-title">Steve Jobs</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, blanditiis exercitationem, officiis ullam quam voluptates enim ea culpa amet eos tempora facilis. Illum repellat pariatur eveniet ea magni officiis accusantium.</p>
             </div>
           </div>
         </div>
-      </nav>
-    <div class="row">
-        <div class="col-md-4">
-
-            <h1>Imagen 1</h1>
-
+        <div class="col">
+          <div class="card h-100">
+            <img src="/Integrador_Front/imagenes_integrador_front/bill.jpg" class="card-img-top" alt="Imagen de Bill Gates">
+            <div class="card-body">
+              <span class="btn btn-warning" >Javascript</span><span class="btn btn-info ms-2" style="color:aliceblue  ">React</span>
+              <h5 class="card-title">Bill Gates</h5>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita dolores corporis recusandae. Accusantium repellendus ipsam atque, omnis cum quos iure quis placeat modi nulla adipisci minus corporis, ad itaque velit?</p>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4">
-
-            <h1>Imagen 2</h1>
-
+        <div class="col">
+          <div class="card h-100">
+            <img src="/Integrador_Front/imagenes_integrador_front/ada.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span class="btn btn-secondary"  >Negocios</span><span class="btn btn-danger ms-2" >Startups</span>
+              <h5 class="card-title">Ada Lovelace</h5>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus rerum ex commodi incidunt dicta enim magnam, iusto dolorum placeat quam provident aperiam a voluptas in reiciendis illum voluptates, mollitia nesciunt.</p>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4">
-
-            <h1>Imagen 3</h1>
-
-        </div>
-    </div>
-</body>
+      </div>
+      </body>
 </html>
