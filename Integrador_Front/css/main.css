@@ -1,18 +1,7 @@
-.item-header {
-    color: azure;
-}
-
-#middle-cards {   
-    padding-left: 200px;
-    padding-right: 200px;
-}
-
-#middle-cards img {
-    height: 270px;
-}
 
 #middle-cards span {
-    font-weight: bolder;
+    
+    font-weight: 600 ;
     font-family:  Arial, Helvetica, sans-serif;
     padding: .25rem .4rem;
     font-size: .750rem;
